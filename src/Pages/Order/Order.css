@@ -1,0 +1,31 @@
+.tab-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    margin-right: 5px;
+  }
+  
+  .tab:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .tab:focus {
+    outline: none;
+    background-color: #d0d0d0;
+  }
+  
+  .tab[aria-selected='true'] {
+    background-color: #fff;
+    border-bottom: 2px solid goldenrod; /* Set the border-bottom color to golden */
+    color: goldenrod; /* Set the text color to golden */
+  }
+  
